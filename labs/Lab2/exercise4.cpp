@@ -1,5 +1,7 @@
 /* Kerrie-Ann Sutton
 14378311
+Program that takes in two strings, finds out the size, and figure out if you can concatinate the two c-strings
+If possible, it concatinates them and prints them, if not, an error message is printed
 */
 #include <iostream>
 
@@ -31,7 +33,7 @@ void my_string_cat(char dest[], char src[], int dest_size){
 		cout<<endl;
 	}
 	else{
-		cout<<"You don goofed"<<endl;
+		cout<<"No room"<<endl;
 	}
 }
 
