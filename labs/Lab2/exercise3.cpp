@@ -13,7 +13,7 @@ int main(){
 	float num;
 	cin>>num;
 	int d1, d2, total;
-	int arr[13] = {};
+	int arr[13] = {}; //initialise empty array to make sure it wasn't filled with random ints
 	float per[11] = {};
 	srand(time(NULL)); //creates pointer that will point to a random number
 
