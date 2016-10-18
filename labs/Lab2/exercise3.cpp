@@ -32,13 +32,13 @@ int main(){
 	}
 	cout<<"Percentages: "<<endl;
 	for(int k = 2;k<13;++k){
-		cout<<k<<" \t";
+		cout<<k<<" \t"; //prints out the totals
 	}
 	cout<<" \n";
 	
 	for(int x=2;x<13;++x){		
 		per[x]=(arr[x]/num)*100;
-		cout<<per[x]<<" \t";
+		cout<<per[x]<<" \t"; //prints out percentages of each total
 		
 	}
 	cout<<" \n";
