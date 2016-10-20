@@ -1,5 +1,6 @@
 /* Kerrie-Ann Sutton
 14378311
+Program that takes in a sequence of doubles and prints them in reverse order
 */
 #include <iostream>
 
