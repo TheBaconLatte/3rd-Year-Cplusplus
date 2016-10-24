@@ -26,8 +26,8 @@ int main(){
 	cout<<"Reverse Order: "<<endl;
 
 	for(int j =num-1;j>=0;--j){
-		cout<<arr[j].name<<"\t"<<arr[j].age<<endl;
+		cout<<arr[j].name<<"\t"<<arr[j].age<<endl; //prints info in reverse order on the same line
 	}
 
-	delete[] arr;
+	delete[] arr; //deletes memory allocated on heap for array
 }
