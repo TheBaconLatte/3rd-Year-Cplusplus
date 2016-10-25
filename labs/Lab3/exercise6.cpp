@@ -14,11 +14,11 @@ int main(){
 	string input = "";
 	cin>>input;
 	customer *head = new customer();
-	if(input != "end"){
+	if(input.compare("end") != 0){
 		head = create_list(input);
 	}
 	cin>>input;
-	while(input != "end"){
+	while(input.compare("end") != 0){
 		insert_name(head, input);
 		cin>>input;
 	}
