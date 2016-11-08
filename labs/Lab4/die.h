@@ -2,16 +2,21 @@
 14378311
 Declares functions in header file
 */
-#include <iostream>
-#include <cstdlib> //for random
-#include <ctime>
+#ifndef _DIE_H
+#define _DIE_H
 
-using namespace std;
 
 class die{
 	public:
-		int roll();
+		die(int sides_);
+		void roll();
 		int getValue();
-		int get Numsides();
-}
+		int getNumsides();
+	private:
+		int max_;
+		int total_;
+		int sides_;
+		float num_;
+};
 
+#endif //_DIE_H
