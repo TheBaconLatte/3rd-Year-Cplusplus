@@ -10,7 +10,7 @@ int main(){
 	int count = 0; 
 	int j =0;
 	for(int x =2;x<=5000;++x){
-		for(int i =2;i<x/2;++i){ //finds and prints all prime numbers
+		for(int i =2;i<x/2;++i){
 			if(x%i==0 && x!=i && x!=2){
 				++count;
 			}

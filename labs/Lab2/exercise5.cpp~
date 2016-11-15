@@ -1,0 +1,42 @@
+/* Kerrie-Ann Sutton
+14378311
+Lab 2 - Exercise 5
+*/
+#include <iostream>
+
+
+using namespace std;
+
+void print_string_array(char str[]){
+		cout<<"Printing out c-string by using array index operator:"<<endl;
+		int j=0;
+		while(str[j]!='\0'){
+			cout<<str[j]<<endl;
+			++j; //prints out c-string one character at a time
+		}
+		cout<<"End of c-string."<<endl;
+}
+
+
+void print_string_ptr(char *str){
+		cout<<"Prints ouf c-string using pointer"<<endl;
+   		char s1[] = "hello"; //scope issue here, found a temporary workaround
+    		int i = 1;
+    		str = &ar[0];
+    		while(*str != '\0')
+   		 {
+       		 cout << *str << endl;
+        		str = &ar[i];
+       		 ++i;
+    		}
+}
+
+int main()
+{
+    	char s1[] = "hello";
+    	print_string_array(ar);
+    	char *ptr;
+    	print_string_ptr(ptr);
+
+	return 0;
+}

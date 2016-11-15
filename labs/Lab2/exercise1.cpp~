@@ -1,0 +1,26 @@
+/* Kerrie-Ann Sutton
+14378311
+*/
+#include <iostream>
+
+using namespace std;
+
+void my_swap(int &a, int &b){
+	int temp;
+	temp = a;
+	a = b;
+	b = temp;
+
+} 
+
+int main(){
+	int num1;
+	int num2;
+	cout<<"Please input two different numbers: "<<endl;
+	cin>>num1;
+	cin>>num2;
+	my_swap(num1,num2);
+	cout<<"The numbers after swapping are: "<<num1<<" and "<<num2<<endl;
+}
+
+
