@@ -1,10 +1,7 @@
-#include <iostream>
-
-
-/*Kerrie-Ann Sutton
+/*Kerrie-Ann Sutton 
 14378311
-header file
  */
+#include <iostream>
 
 using namespace std;
 
@@ -31,9 +28,9 @@ class MyComplex{
 	void setImag(double imag);
 
 	//declare methods
-	MyComplex Add(const MyComplex &z);
-	MyComplex Subtract(const MyComplex &z);
-	MyComplex Multiply(const MyComplex &z);
+	MyComplex operator+(const MyComplex &z);
+	MyComplex operator-(const MyComplex &z);
+	MyComplex operator*(const MyComplex &z);
 
 	//declare print method
 	void printComplex(void);
