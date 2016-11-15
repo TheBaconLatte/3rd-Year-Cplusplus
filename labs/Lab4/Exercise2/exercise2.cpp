@@ -1,8 +1,6 @@
-/*Name: Ella Mae Cruz
- *Student Number: 14324961
- *Lab 4 - Exercise 2
- *
- *Contains main method
+/*Kerrie-Ann Sutton
+14378311
+contains main method
 */
 
 #include <iostream>
