@@ -1,8 +1,6 @@
-/*Name: Ella Mae Cruz
- *Student Number: 14324961
- *Lab 4 - Exercise 2
- *
- *Contains method definitions
+/*Kerrie-Ann Sutton
+14378311
+Contains methods
 */
 
 #include <iostream>
