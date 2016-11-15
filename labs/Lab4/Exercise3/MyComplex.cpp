@@ -1,10 +1,11 @@
-/*Kerrie-Ann Sutton
-14378311
-Contains methods
-*/
-
 #include <iostream>
 #include "MyComplex.h"
+
+/*Kerrie-Ann Sutton
+14378311
+*/
+
+
 
 using namespace std;
 
@@ -31,7 +32,7 @@ double MyComplex::getReal(){
 	}
 
 //definition of Addition method
-	MyComplex MyComplex::Add(const MyComplex &z){
+	MyComplex MyComplex::operator+(const MyComplex &z){
 		MyComplex comp;
 		
 		comp.numReal = this -> numReal + z.numReal;
@@ -41,7 +42,7 @@ double MyComplex::getReal(){
 	}	
 	
 //definition of Subtraction method
-	MyComplex MyComplex::Subtract(const MyComplex &z){
+	MyComplex MyComplex::operator-(const MyComplex &z){
 		MyComplex comp;
 		
 		comp.numReal = this -> numReal - z.numReal;
@@ -51,7 +52,7 @@ double MyComplex::getReal(){
 	}
 
 //definition of Multiplication
-	MyComplex MyComplex::Multiply(const MyComplex &z){
+	MyComplex MyComplex::operator*(const MyComplex &z){
 		MyComplex comp;
 		comp.numReal = this -> numReal * z.numReal;
 		comp.numImag = this -> numImag * z.numImag;
