@@ -1,10 +1,9 @@
 #include <iostream>
 
 
-/*Name: Ella Mae Cruz
- *Student Number: 14324961
- *Lab 4 - Exercise 2
- *Header file for exercise 2
+/*Kerrie-Ann Sutton
+14378311
+header file
  */
 
 using namespace std;
