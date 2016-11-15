@@ -1,2 +1,3 @@
-Please add a description to your repository.
+# 3rd-Year-Cplusplus
+A repository of labs completed as part of my System Design module
 
